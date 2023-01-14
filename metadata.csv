@@ -1,0 +1,36 @@
+"{
+  ""Type"" : ""Notification"",
+  ""MessageId"" : ""7f2cb23e-5866-5276-b5aa-ee036e77f28b"",
+  ""TopicArn"" : ""arn:aws:sns:us-east-1:705434271522:s3-event-notification-topic"",
+  ""Subject"" : ""Amazon S3 Notification"",
+  ""Message"" : ""{\""Records\"":[{\""eventVersion\"":\""2.1\"",\""eventSource\"":\""aws:s3\"",\""awsRegion\"":\""us-east-1\"",\""eventTime\"":\""2023-01-14T22:59:27.676Z\"",\""eventName\"":\""ObjectCreated:Put\"",\""userIdentity\"":{\""principalId\"":\""AWS:AIDA2IPZIX4RGCEHMQDEY\""},\""requestParameters\"":{\""sourceIPAddress\"":\""156.210.190.172\""},\""responseElements\"":{\""x-amz-request-id\"":\""Z9XN5SS1QAMM5QSV\"",\""x-amz-id-2\"":\""8FOzQiSVOUbh5tBmd36D8/738i9pChUgyASQQjbhk+2mTBj8GCZqmNe7YoOpfEfM/1UO8GSKE1yLKW65drDUQn5qjENBrVf7\""},\""s3\"":{\""s3SchemaVersion\"":\""1.0\"",\""configurationId\"":\""tf-s3-topic-20230114212117526600000001\"",\""bucket\"":{\""name\"":\""maczbucket1\"",\""ownerIdentity\"":{\""principalId\"":\""A2PU0NN1ENYOAE\""},\""arn\"":\""arn:aws:s3:::maczbucket1\""},\""object\"":{\""key\"":\""mac1.txt\"",\""size\"":73,\""eTag\"":\""a300440139b8ffcf7a77fccd626885c8\"",\""sequencer\"":\""0063C333CF7DA8905E\""}}}]}"",
+  ""Timestamp"" : ""2023-01-14T22:59:29.073Z"",
+  ""SignatureVersion"" : ""1"",
+  ""Signature"" : ""kb0Xdp8L0YoOVZfXlg9HbygCJtaya9E6dk1noSnwwjWV+xI0RR5cdhpDOCS7u2i6oyy/pFmcv827ps5iLIHkYXIMZKKmM3qvSNJuj7NSSTp04YXFne6RtuULv4B+yM2e0IvXiNv6CYNeDo/s0CYQ7IJ59EYJr61DSyNRTFr0381Mq+HTJQuIfTrBWofHbN7XfdgN0N880VHOqmyQCX38oea8oDyjbIb88iCsBT5Gf3nDL5cgJsYSoX4ry7ukq+ZkCnvS+wzrBMzhT71LwNaR1rhkOQevsaynIa2yzhuD2X28FCgwaoeM2aWR46JHYKwM8TRasqzsluu4PTLDth7Ucw=="",
+  ""SigningCertURL"" : ""https://sns.us-east-1.amazonaws.com/SimpleNotificationService-56e67fcb41f6fec09b0196692625d385.pem"",
+  ""UnsubscribeURL"" : ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:705434271522:s3-event-notification-topic:94400ef0-0173-4449-8d43-f58f0da37f27""
+}"
+"{
+  ""Type"" : ""Notification"",
+  ""MessageId"" : ""d83148da-56af-5e23-b3f2-14e76311b1dd"",
+  ""TopicArn"" : ""arn:aws:sns:us-east-1:705434271522:s3-event-notification-topic"",
+  ""Subject"" : ""Amazon S3 Notification"",
+  ""Message"" : ""{\""Records\"":[{\""eventVersion\"":\""2.1\"",\""eventSource\"":\""aws:s3\"",\""awsRegion\"":\""us-east-1\"",\""eventTime\"":\""2023-01-14T22:58:04.975Z\"",\""eventName\"":\""ObjectCreated:Put\"",\""userIdentity\"":{\""principalId\"":\""AWS:AIDA2IPZIX4RGCEHMQDEY\""},\""requestParameters\"":{\""sourceIPAddress\"":\""156.210.190.172\""},\""responseElements\"":{\""x-amz-request-id\"":\""AAXK9H45YK221QW0\"",\""x-amz-id-2\"":\""+50wUC4X+ysNmxzeVH4DjuqpbMrWx03sd7YtdBSh4Ox6w+WEO92nWLsEXG4FFt0RBk0aH+gZFDAO/ZNOJ4ER0KEJUKD48NAH\""},\""s3\"":{\""s3SchemaVersion\"":\""1.0\"",\""configurationId\"":\""tf-s3-topic-20230114212117526600000001\"",\""bucket\"":{\""name\"":\""maczbucket1\"",\""ownerIdentity\"":{\""principalId\"":\""A2PU0NN1ENYOAE\""},\""arn\"":\""arn:aws:s3:::maczbucket1\""},\""object\"":{\""key\"":\""mac1.txt\"",\""size\"":73,\""eTag\"":\""a300440139b8ffcf7a77fccd626885c8\"",\""sequencer\"":\""0063C3337CC94AC866\""}}}]}"",
+  ""Timestamp"" : ""2023-01-14T22:58:06.253Z"",
+  ""SignatureVersion"" : ""1"",
+  ""Signature"" : ""i0ZwBbkQIYlNcGq6bkGP7gSTKFvUXIqTy347k631aSKlS8YKoZqfd/32Cs7VSBw/GsYfClzB8EqB34LxihhKePWs3RYg7BUf7ctYkBsRIxmWGO4OP7YSW9rg2EGRhuF1nDzr4sskYau1HHnvxknzsWyg3360YQ/wwSqvQyWbF39GfjObjPxlVTDKCCJ9YmtOytaWSn+p4HsSMxTeg79pJCfdo7XpzqxSRotcK6AJ+ks4741OUfkxdNFnYNJksH1o9p+7tcFZ8zVIgRiUuiJJHDsP54O1KHU+IVZrtVaCAZPscjQwkcaQTEfavICo49dG8cuQWDS/euC/qvqNRXYzbA=="",
+  ""SigningCertURL"" : ""https://sns.us-east-1.amazonaws.com/SimpleNotificationService-56e67fcb41f6fec09b0196692625d385.pem"",
+  ""UnsubscribeURL"" : ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:705434271522:s3-event-notification-topic:94400ef0-0173-4449-8d43-f58f0da37f27""
+}"
+"{
+  ""Type"" : ""Notification"",
+  ""MessageId"" : ""1b78284e-2180-5a22-85a6-7473183e45c8"",
+  ""TopicArn"" : ""arn:aws:sns:us-east-1:705434271522:s3-event-notification-topic"",
+  ""Subject"" : ""Amazon S3 Notification"",
+  ""Message"" : ""{\""Records\"":[{\""eventVersion\"":\""2.1\"",\""eventSource\"":\""aws:s3\"",\""awsRegion\"":\""us-east-1\"",\""eventTime\"":\""2023-01-14T23:15:09.441Z\"",\""eventName\"":\""ObjectCreated:Put\"",\""userIdentity\"":{\""principalId\"":\""A2PU0NN1ENYOAE\""},\""requestParameters\"":{\""sourceIPAddress\"":\""156.210.190.172\""},\""responseElements\"":{\""x-amz-request-id\"":\""C0HHDJDZHNH419AC\"",\""x-amz-id-2\"":\""btNIxnzmMj/rqxYYKo2BAuKZaFqFiXxV+zv61rypqCAwokugpkQ0L5WutuPExm7mPTAq7kam6blPaI7tKWmWlS5JNxPSW5Qa\""},\""s3\"":{\""s3SchemaVersion\"":\""1.0\"",\""configurationId\"":\""tf-s3-topic-20230114212117526600000001\"",\""bucket\"":{\""name\"":\""maczbucket1\"",\""ownerIdentity\"":{\""principalId\"":\""A2PU0NN1ENYOAE\""},\""arn\"":\""arn:aws:s3:::maczbucket1\""},\""object\"":{\""key\"":\""file-mac.txt\"",\""size\"":73,\""eTag\"":\""a300440139b8ffcf7a77fccd626885c8\"",\""sequencer\"":\""0063C3377D690F1795\""}}}]}"",
+  ""Timestamp"" : ""2023-01-14T23:15:10.888Z"",
+  ""SignatureVersion"" : ""1"",
+  ""Signature"" : ""d5feljZOEqQsr46YOZJXZBGCSJq9xeyXnPPVrsAFQo9jGVCkGYD7zYIXxHGIDdhmBBYtxz3YAmIc2Kt8ue4vedLAfWPOhponfOtmbTxLg2Zu6VWktmULJs4Aq3Mi5zZls/+DcVsCayPDSkm6CpkuXfnmBqZK9QPRdssEOQ6B+E9vTZnF50DKIZc3Ey/88KyjoW4aYFUc4SGsuyQRYHtwBajybXH4l/ex9ETDlOLxRmKXEwbvpxLLogZLPdNAOW7wcUtolLjhVivDcHdO75+Ez/O/bGvnUbPkq6IHVCwnmv+DtEHsSNofOBWMRNHt4ynmyoekWIWl5vbfO3orbachyQ=="",
+  ""SigningCertURL"" : ""https://sns.us-east-1.amazonaws.com/SimpleNotificationService-56e67fcb41f6fec09b0196692625d385.pem"",
+  ""UnsubscribeURL"" : ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:705434271522:s3-event-notification-topic:94400ef0-0173-4449-8d43-f58f0da37f27""
+}"
