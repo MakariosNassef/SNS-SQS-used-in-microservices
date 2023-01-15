@@ -1,12 +1,21 @@
 # This resource block creates an SQS queue called "My-first-Queue"
 resource "aws_sqs_queue" "terraform_first_queue" {
   name = "My-first-Queue"
-  visibility_timeout_seconds = 300
+  visibility_timeout_seconds = 15
+    redrive_policy    = jsonencode({
+    deadLetterTargetArn = aws_sqs_queue.dead_letter_queue.arn
+    maxReceiveCount    = 5
+  })
 }
 
 # This resource block creates an SQS queue called "My-secound-Queue"
 resource "aws_sqs_queue" "terraform_secound_queue" {
   name = "My-secound-Queue"
+  visibility_timeout_seconds = 300
+}
+
+resource "aws_sqs_queue" "dead_letter_queue" {
+  name              = "dead-letter-queue"
   visibility_timeout_seconds = 300
 }
 
