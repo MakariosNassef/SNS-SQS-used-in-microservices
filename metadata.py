@@ -27,7 +27,8 @@ while True:
                 writer = csv.writer(csvfile)
 
                 writer.writerow([body])
-
+                
+            time.sleep(600)
             # Delete received message from queue 
             sqs2.delete_message(QueueUrl=queue.url, ReceiptHandle=receipt_handle)
             print(body)
@@ -36,7 +37,6 @@ while True:
     except KeyError:  # If no messages are available, do nothing 
 
         pass
-    time.sleep(60)
 
 
 
