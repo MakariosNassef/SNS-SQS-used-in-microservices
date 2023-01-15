@@ -22,3 +22,4 @@ the script should upload the file again with the same name with  to different fo
 - 8 - create another python script called metadata.py that pull messages from the other sqs queue and store the file metadata in csv file locally
 - 9 - both scripts should pull messages from queues every minute
 - 10 - add sleep time in one of the scripts higher than visibility timeout to test the deadletter queue
+![image](https://user-images.githubusercontent.com/28235504/212503723-cdc13f8c-4ffa-429c-8669-a0f54a9f8ccf.png)
